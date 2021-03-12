@@ -5,78 +5,98 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 
 <body>
-    <header>
-        logo-img
-        loupe-img
-        <button>
-            menu-img
-        </button>
-        <button>
-            <a href="#">person img</a>
-            <a href="#">cart img</a>
-        </button>
-        <nav>
-            menu
-            <ul>
-                <li>
-                    <h2>man</h2>
-                    <ul>
-                        <li><a href="#" class="link"></a></li>
-                        <li><a href="#" class="link"></a></li>
-                        <li><a href="#" class="link"></a></li>
-                        <li><a href="#" class="link"></a></li>
-                    </ul>
-                </li>
-                <li>
-                    <h2>wooman</h2>
-                    <ul>
-                        <li><a href="#" class="link"></a></li>
-                        <li><a href="#" class="link"></a></li>
-                        <li><a href="#" class="link"></a></li>
-                        <li><a href="#" class="link"></a></li>
-                    </ul>
-                </li>
-                <li>
-                    <h2>kids</h2>
-                    <ul>
-                        <li><a href="#" class="link"></a></li>
-                        <li><a href="#" class="link"></a></li>
-                        <li><a href="#" class="link"></a></li>
-                        <li><a href="#" class="link"></a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
+    <div class="header">
+        <header class="container">
+            <div class="header__wrapper">
+                <div class="header__controls">
+                    <img class="header__logo" src="img/logo.svg" alt="logo" width="44" height="38">
+                    <img src="img/loupe.svg" alt="loupe" width="26" height="26,79">
+                </div>
+                <div class="header__controls">
+                    <button class="header__button">
+                        <img src="img/loupe.svg" alt="loupe" width="26" height="26,79">
+                    </button>
+                    <a href="#" class="header_person-link"><img src="img/loupe.svg" alt="loupe" width="26"
+                            height="26,79"></a>
+                    <a href="#"><img src="img/loupe.svg" alt="loupe" width="26" height="26,79"></a>
+                </div>
+            </div>
+    </div>
+    <nav class="header__navigation">
+        menu
+        <ul>
+            <li>
+                <h2>man</h2>
+                <ul>
+                    <li><a href="#" class="link">link</a></li>
+                    <li><a href="#" class="link">link</a></li>
+                    <li><a href="#" class="link">link</a></li>
+                    <li><a href="#" class="link">link</a></li>
+                </ul>
+            </li>
+            <li>
+                <h2>wooman</h2>
+                <ul>
+                    <li><a href="#" class="link">link</a></li>
+                    <li><a href="#" class="link">link</a></li>
+                    <li><a href="#" class="link">link</a></li>
+                    <li><a href="#" class="link">link</a></li>
+                </ul>
+            </li>
+            <li>
+                <h2>kids</h2>
+                <ul>
+                    <li><a href="#" class="link">link</a></li>
+                    <li><a href="#" class="link">link</a></li>
+                    <li><a href="#" class="link">link</a></li>
+                    <li><a href="#" class="link">link</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
     </header>
     <main>
-        <section>
-            man-img
-            <h1>THE BRAND
-                OF LUXERIOUS FASHION
-            </h1>
+        <section class="brand">
+            <img src="img/brand__men.jpg" alt="brand__man" width="800" height="764">
+            <div class="brand__title-wrapper">
+                <h1 class="brand__title">The brand<span class="brand__subtittle"> of luxerious <span
+                            class="brand__subtittle--pink">fashion</span></span></h1>
+            </div>
         </section>
-        <section>
-            <h2>Offers</h2>
-            <ul>
-                <li>
-                    <h3>30% OFF</h3>
-                    <p>FOR WOMEN</p>
+        <section class="offers container">
+            <h2 class="visually-hidden">Offers</h2>
+            <ul class="offers__list">
+                <li class="offers__item offers__item--woman">
+                    <div>
+                        <h3>30% off</h3>
+                        <p>for woman</p>
+                    </div>
                 </li>
-                <li>
-                    <h3>30% OFF</h3>
-                    <p>FOR WOMEN</p>
+                <li class="offers__item offers__item--man">
+                    <div>
+                        <h3>30% off</h3>
+                        <p>for woman</p>
+                    </div>
                 </li>
-                <li>
-                    <h3>30% OFF</h3>
-                    <p>FOR WOMEN</p>
+                <li class="offers__item offers__item--kids">
+                    <div>
+                        <h3>30% off</h3>
+                        <p>for woman</p>
+                    </div>
                 </li>
-                <li>
-                    <h3>30% OFF</h3>
-                    <p>FOR WOMEN</p>
+                <li class="offers__item offers__item--accesories">
+                    <div>
+                        <h3>30% off</h3>
+                        <p>for woman</p>
+                    </div>
                 </li>
             </ul>
         </section>
@@ -86,22 +106,25 @@
             <ul>
                 <li>
                     img
-                    <h3>ELLERY X M'O CAPSULE</h3>
-                    <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery
+                    <h3>ellery x m'o capsule</h3>
+                    <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym
+                        Ellery
                         teams up with Moda Operandi.</p>
                     <p>$52.00</p>
                 </li>
                 <li>
                     img
-                    <h3>ELLERY X M'O CAPSULE</h3>
-                    <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery
+                    <h3>ellery x m'o capsule</h3>
+                    <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym
+                        Ellery
                         teams up with Moda Operandi.</p>
                     <p>$52.00</p>
                 </li>
                 <li>
                     img
-                    <h3>ELLERY X M'O CAPSULE</h3>
-                    <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery
+                    <h3>ellery x m'o capsule</h3>
+                    <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym
+                        Ellery
                         teams up with Moda Operandi.</p>
                     <p>$52.00</p>
                 </li>
