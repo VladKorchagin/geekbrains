@@ -190,3 +190,86 @@ text-transform: uppercase;
 border: 1px solid #FF6A6A;
 margin: 48px 685px;
 }
+
+.pluses {
+  height: 341px;
+  background: #222224;
+}
+
+.headline__pluses {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #FBFBFB;
+}
+
+.pluses__text {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 17px;
+  letter-spacing: 0em;
+  color: #FBFBFB;
+}
+
+.pluses__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.delivery {
+  margin: 103px 30px 104px 230px;
+}
+
+.sales {
+  margin: 104px 30px;
+}
+
+.quality {
+  margin: 103px 230px 104px 30px;
+}
+
+.delivery__img {
+  margin: 0px 0px 23px 0px;
+}
+
+.headline__pluses {
+  margin: 0px 0px 16px 0px;
+}
+
+.footer {
+  height: 448px;
+  background: rgba(244, 244, 244, 0.7);
+}
+
+.footer__text {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+text-align: center;
+width: 359px;;
+color: #222224;
+}
+
+.footer__img {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__finish {
+  margin: 97px 223px 126px 228px;
+}
